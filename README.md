@@ -17,6 +17,14 @@ This script ensures node uptime by automatically detecting failures and restarti
 
 ---
 
+## Why This Matters
+
+Node downtime can lead to missed rewards, degraded performance, and reduced network reliability.
+
+This tool provides a simple and efficient way to ensure continuous node operation with minimal overhead, making it useful for node operators and validators in the GenLayer ecosystem.
+
+---
+
 ## 📦 Requirements
 
 - Linux (Ubuntu / Arch recommended)
