@@ -252,4 +252,3 @@ By combining monitoring with analysis and recommendations, it showcases how inte
 
 MIT
 
->>>>>>> dcb2c05 (update: replace demo screenshot)
