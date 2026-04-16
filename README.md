@@ -63,6 +63,7 @@ git clone https://github.com/Tobu8888/GenLayer-Node-Monitor.git
 cd GenLayer-Node-Monitor
 ```
 Make script executable:
+<<<<<<< HEAD
 
 ```bash
 chmod +x monitor.sh
@@ -156,3 +157,99 @@ By combining monitoring with analysis and recommendations, it showcases how inte
 ## 📄 License
 
 MIT
+=======
+
+```bash
+chmod +x monitor.sh
+```
+
+---
+
+## ▶️ Usage
+
+Run node monitor:
+
+```bash
+./monitor.sh
+```
+Check logs:
+
+```bash
+cat node.log
+```
+---
+
+## 🧪 Run AI Analysis
+
+Analyze logs:
+
+```bash
+python3 ai_analyzer.py
+```
+Save AI output:
+
+```bash
+cat node.log | python3 ai_analyzer.py >> ai.log
+```
+
+---
+
+## ⏱ Automation (Cron)
+
+Run every 5 minutes:
+
+```bash
+crontab -e
+```
+Add:
+```bash
+*/5 * * * * /path/to/monitor.sh
+```
+
+---
+
+
+## 📁 Project Structure
+
+```bash
+.
+├── monitor.sh        # Node monitoring + auto-restart
+├── ai_analyzer.py    # AI log analysis
+├── node.log          # Node logs
+├── ai.log            # AI analysis output
+└── README.md
+```
+---
+
+## 🌐 Use Case
+- Node operators who want better uptime
+- Developers exploring AI + infra integration
+- Testing node reliability on GenLayer testnet
+
+---
+
+## 🧩 Alignment with GenLayer
+
+This project demonstrates a simple but practical step toward:
+
+AI-assisted decision-making in blockchain infrastructure
+
+By combining monitoring with analysis and recommendations, it showcases how intelligent systems can enhance node reliability and contribute to decentralized environments.
+
+---
+
+## 🚀 Future Improvements
+
+- 🤖 Real LLM integration (OpenAI / local models)
+- 🧠 AI-driven restart decisions (instead of rule-based)
+- 📊 Web dashboard (e.g. Vercel)
+- 🔔 Alert system (Telegram / Discord)
+- 📈 Node scoring system
+
+---
+
+## 📄 License
+
+MIT
+
+>>>>>>> dcb2c05 (update: replace demo screenshot)
